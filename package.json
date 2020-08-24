@@ -1,0 +1,22 @@
+{
+  "name": "rpistream",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export"
+  },
+  "author": "beeinger",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^9.5.2",
+    "next-videos": "1.2.0",
+    "puppeteer": "^5.2.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-player": "^2.6.1"
+  }
+}
