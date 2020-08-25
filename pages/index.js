@@ -16,7 +16,7 @@ export default function index() {
   return (
     <div>
       {Movies.map((val) => (
-        <Link href={"/movie/" + val}>{val}</Link>
+        <Link href={"/" + val}>{val}</Link>
       ))}
     </div>
   );
