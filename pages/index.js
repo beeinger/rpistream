@@ -14,9 +14,9 @@ export default function index() {
   useEffect(() => console.log(Movies), [Movies]);
 
   return (
-    <div>
+    <div style={{ display: "flex", flexFlow: "column nowrap" }}>
       {Movies.map((val) => (
-        <Link href={"/" + val}>{val}</Link>
+        <span><Link href={"/" + val}>{val}</Link></span>
       ))}
     </div>
   );
