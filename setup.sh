@@ -15,7 +15,6 @@ apt-get update
 apt-get upgrade --assume-yes
 apt-get install --assume-yes --no-install-recommends nodejs
 
-npm install serve -g
 npm install --prefix /home/pi/app
 mkdir /home/pi/app/public
 
