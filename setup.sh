@@ -17,6 +17,7 @@ apt-get install --assume-yes --no-install-recommends nodejs
 
 npm install serve -g
 npm install --prefix /home/pi/app
+mkdir /home/pi/app/public
 
 echo "nohup npm start --prefix /home/pi/app </dev/null >/dev/null 2>&1 &" >> /home/pi/.bash_profile
 
